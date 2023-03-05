@@ -1,3 +1,6 @@
+import sys
+from tkinter import messagebox
+
 '''
 # 1.メッセージボックス（情報） 
 messagebox.showinfo(タイトル, メッセージ内容)
@@ -48,8 +51,6 @@ messagebox.askretrycancel(タイトル, メッセージ内容)
 	# キャンセルボタン・・・False
 
 
-import sys
-from tkinter import messagebox
 
 # メッセージボックス（情報） 
 messagebox.showinfo('確認', 'もうすぐ誕生日です')
