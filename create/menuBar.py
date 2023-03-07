@@ -25,3 +25,5 @@ men.add_cascade(label='ファイル', menu=menu_file)
 menu_file.add_command(label='開く', command=open_file)
 menu_file.add_separator()
 menu_file.add_command(label='閉じる', command=close_disp)
+
+tki.mainloop()
